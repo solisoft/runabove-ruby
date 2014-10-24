@@ -13,7 +13,7 @@ Creating a new consumerKey
 ```
 require "runabove"
 
-ra = Runabove.new(YOUR_API_KEY, YOUR_SECRET)
+ra = Runabove.new(YOUR_APP_KEY, YOUR_SECRET)
 data = ra.createConsumerKey
 puts "ConsumerKey = #{data["consumerKey"]}"
 puts "To validate your consumerKey, open this link into your browser : #{data["validationUrl"]}"
@@ -22,7 +22,7 @@ puts "To validate your consumerKey, open this link into your browser : #{data["v
 Once you have validated your consumerKey you can do :
 
 ```
-ra = Runabove.new(YOUR_API_KEY, YOUR_SECRET, A_VALIDATED_CONSUMER_KEY)
+ra = Runabove.new(YOUR_APP_KEY, YOUR_SECRET, A_VALIDATED_CONSUMER_KEY)
 data = ra.raw_call("get", "/me")
 puts data.inspect
 ```
