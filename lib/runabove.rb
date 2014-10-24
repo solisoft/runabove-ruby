@@ -102,6 +102,9 @@ class Runabove
 end
 
 class RunaboveMe < Runabove
+  # Get this object properties
+  # 
+  # @return [Hash] Get this object properties
   def info
     raw_call("get", "/me")
   end
