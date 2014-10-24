@@ -2,11 +2,17 @@
 
 Use Ruby to play with Runabove API.
 
+## Installation
+
+`gem install runabove`
+
 ## Usage
 
 Creating a new consumerKey
 
 ```
+require "runabove"
+
 ra = Runabove.new(YOUR_API_KEY, YOUR_SECRET)
 data = ra.createConsumerKey
 puts "ConsumerKey = #{data["consumerKey"]}"
