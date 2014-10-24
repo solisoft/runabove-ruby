@@ -51,3 +51,7 @@ Deleting a created Instance
 ```
 res = ra.raw_call("delete", "/instance/ID_OF_YOUR_INSTANCE")
 ```
+
+## TODO
+
+* Creating a wrapper for each parts (flavors, me, instance, region, etc...)
