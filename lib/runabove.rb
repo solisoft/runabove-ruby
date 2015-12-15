@@ -9,7 +9,7 @@ class Runabove
   
   attr_reader :me, :flavor, :image, :instance, 
               :labs, :price, :project, :region, 
-              :ssh, :storage, :time, :token
+              :ssh, :storage, :time, :token, :stackMysql
 
   def initialize(appkey, secret, consumerkey = "")
     @appkey = appkey
@@ -34,6 +34,8 @@ class Runabove
     @storage = RunaboveStorage.new @appkey, @secret, @consumerkey
     @time = RunaboveTime.new @appkey, @secret, @consumerkey
     @token = RunaboveToken.new @appkey, @secret, @consumerkey
+    @stackMysql = RunaboveStackMysql.new @appkey, @secret, @consumerkey
+
   end
 
   def createConsumerKey
@@ -301,5 +303,27 @@ end
 class RunaboveToken < Runabove
   def list
     raw_call("get", "/token")
+  end
+end
+
+class RunaboveStackMysql < Runabove
+  def list
+    raw_call("get", "/stackMysql")
+  end
+
+  def create(data)
+    raw_call("post", "/stackMysql", data)
+  end
+
+  def detail(name)
+    raw_call("get", "/stackMysql/#{name}")
+  end
+
+  def delete(name)
+    raw_call("delete", "/stackMysql/#{name}")
+  end
+
+  def status(name)
+     raw_call("get", "/stackMysql/#{name}/status")   
   end
 end
