@@ -6,7 +6,7 @@
 <title>
   Class: RunaboveMe
   
-    &mdash; Documentation by YARD 0.8.7.4
+    &mdash; Documentation by YARD 0.8.7.6
   
 </title>
 
@@ -110,7 +110,7 @@
   <h2>Instance Attribute Summary</h2>
   
   <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Runabove.html" title="Runabove (class)">Runabove</a></span></h3>
-  <p class="inherited"><span class='object_link'><a href="Runabove.html#flavor-instance_method" title="Runabove#flavor (method)">#flavor</a></span>, <span class='object_link'><a href="Runabove.html#image-instance_method" title="Runabove#image (method)">#image</a></span>, <span class='object_link'><a href="Runabove.html#instance-instance_method" title="Runabove#instance (method)">#instance</a></span>, <span class='object_link'><a href="Runabove.html#me-instance_method" title="Runabove#me (method)">#me</a></span>, <span class='object_link'><a href="Runabove.html#price-instance_method" title="Runabove#price (method)">#price</a></span>, <span class='object_link'><a href="Runabove.html#project-instance_method" title="Runabove#project (method)">#project</a></span>, <span class='object_link'><a href="Runabove.html#region-instance_method" title="Runabove#region (method)">#region</a></span>, <span class='object_link'><a href="Runabove.html#ssh-instance_method" title="Runabove#ssh (method)">#ssh</a></span>, <span class='object_link'><a href="Runabove.html#storage-instance_method" title="Runabove#storage (method)">#storage</a></span>, <span class='object_link'><a href="Runabove.html#time-instance_method" title="Runabove#time (method)">#time</a></span>, <span class='object_link'><a href="Runabove.html#token-instance_method" title="Runabove#token (method)">#token</a></span></p>
+  <p class="inherited"><span class='object_link'><a href="Runabove.html#flavor-instance_method" title="Runabove#flavor (method)">#flavor</a></span>, <span class='object_link'><a href="Runabove.html#image-instance_method" title="Runabove#image (method)">#image</a></span>, <span class='object_link'><a href="Runabove.html#instance-instance_method" title="Runabove#instance (method)">#instance</a></span>, <span class='object_link'><a href="Runabove.html#me-instance_method" title="Runabove#me (method)">#me</a></span>, <span class='object_link'><a href="Runabove.html#price-instance_method" title="Runabove#price (method)">#price</a></span>, <span class='object_link'><a href="Runabove.html#project-instance_method" title="Runabove#project (method)">#project</a></span>, <span class='object_link'><a href="Runabove.html#region-instance_method" title="Runabove#region (method)">#region</a></span>, <span class='object_link'><a href="Runabove.html#ssh-instance_method" title="Runabove#ssh (method)">#ssh</a></span>, <span class='object_link'><a href="Runabove.html#stackMysql-instance_method" title="Runabove#stackMysql (method)">#stackMysql</a></span>, <span class='object_link'><a href="Runabove.html#storage-instance_method" title="Runabove#storage (method)">#storage</a></span>, <span class='object_link'><a href="Runabove.html#time-instance_method" title="Runabove#time (method)">#time</a></span>, <span class='object_link'><a href="Runabove.html#token-instance_method" title="Runabove#token (method)">#token</a></span></p>
 
 
   
@@ -538,12 +538,12 @@
       <pre class="lines">
 
 
-116
 117
-118</pre>
+118
+119</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 116</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 117</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_application'>api_application</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/application/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -568,12 +568,12 @@
       <pre class="lines">
 
 
-112
 113
-114</pre>
+114
+115</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 112</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 113</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_applications'>api_applications</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/application</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -598,12 +598,12 @@
       <pre class="lines">
 
 
-128
 129
-130</pre>
+130
+131</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 128</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 129</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_credential'>api_credential</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/credential/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -628,12 +628,12 @@
       <pre class="lines">
 
 
-136
 137
-138</pre>
+138
+139</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 136</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 137</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_credential_application'>api_credential_application</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/credential/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_content'>/application</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -658,12 +658,12 @@
       <pre class="lines">
 
 
-124
 125
-126</pre>
+126
+127</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 124</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 125</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_credentials'>api_credentials</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/credential</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -688,12 +688,12 @@
       <pre class="lines">
 
 
-120
 121
-122</pre>
+122
+123</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 120</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 121</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_delete_application'>api_delete_application</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>delete</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/application/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -718,12 +718,12 @@
       <pre class="lines">
 
 
-132
 133
-134</pre>
+134
+135</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 132</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 133</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_api_delete_credential'>api_delete_credential</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>delete</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/api/credential/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -748,12 +748,12 @@
       <pre class="lines">
 
 
-140
 141
-142</pre>
+142
+143</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 140</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 141</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_ask_validation'>ask_validation</span><span class='lparen'>(</span><span class='id identifier rubyid_data'>data</span> <span class='op'>=</span> <span class='lbrace'>{</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>validationType</span><span class='tstring_end'>&quot;</span></span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sms</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>post</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/askValidation</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
@@ -778,12 +778,12 @@
       <pre class="lines">
 
 
-144
 145
-146</pre>
+146
+147</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 144</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 145</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_balance'>balance</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/balance</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -808,12 +808,12 @@
       <pre class="lines">
 
 
-152
 153
-154</pre>
+154
+155</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 152</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 153</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_bill'>bill</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/bill/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -838,12 +838,12 @@
       <pre class="lines">
 
 
-156
 157
-158</pre>
+158
+159</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 156</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 157</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_bill_details'>bill_details</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/bill/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_content'>/details</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -868,12 +868,12 @@
       <pre class="lines">
 
 
-148
 149
-150</pre>
+150
+151</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 148</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 149</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_bills'>bills</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/bill</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -927,12 +927,12 @@
       <pre class="lines">
 
 
-108
 109
-110</pre>
+110
+111</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 108</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 109</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_info'>info</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -957,12 +957,12 @@
       <pre class="lines">
 
 
-164
 165
-166</pre>
+166
+167</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 164</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 165</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_lab'>lab</span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/labs/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_name'>name</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -987,12 +987,12 @@
       <pre class="lines">
 
 
-160
 161
-162</pre>
+162
+163</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 160</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 161</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_labs'>labs</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/labs</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -1017,12 +1017,12 @@
       <pre class="lines">
 
 
-168
 169
-170</pre>
+170
+171</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 168</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 169</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_usage'>usage</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>get</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/usage</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
@@ -1047,12 +1047,12 @@
       <pre class="lines">
 
 
-172
 173
-174</pre>
+174
+175</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 172</span>
+      <pre class="code"><span class="info file"># File 'lib/runabove.rb', line 173</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_validate'>validate</span><span class='lparen'>(</span><span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_raw_call'>raw_call</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>post</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/me/validate</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
@@ -1067,9 +1067,9 @@
 </div>
 
     <div id="footer">
-  Generated on Fri Oct 24 15:33:30 2014 by
+  Generated on Tue Dec 15 16:22:53 2015 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.8.7.4 (ruby-2.1.3).
+  0.8.7.6 (ruby-2.2.2).
 </div>
 
   </body>

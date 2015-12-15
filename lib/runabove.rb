@@ -35,7 +35,6 @@ class Runabove
     @time = RunaboveTime.new @appkey, @secret, @consumerkey
     @token = RunaboveToken.new @appkey, @secret, @consumerkey
     @stackMysql = RunaboveStackMysql.new @appkey, @secret, @consumerkey
-
   end
 
   def createConsumerKey
